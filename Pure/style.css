@@ -1,0 +1,1104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #2ecc71, #27ae60); 
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #2ecc71; 
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav button {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2ecc71; 
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    margin-right: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shopping-basket {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.content-box {
+    background-color: #d1f5d1; 
+    padding: 2em;
+    margin: 2em;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2em;
+}
+
+footer {
+    background: linear-gradient(to right, #2ecc71, #27ae60); 
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+@media (max-width: 600px) {
+    nav button {
+        display: block;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+
+    .user-actions {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .login {
+        margin: 0 0 0.5em 0;
+    }
+
+    .content-box {
+        width: 100%;
+    }
+    footer {
+        background: linear-gradient(to right, #2ecc71, #27ae60); 
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+        margin-top: 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social-icons {
+        font-size: 2em;
+        margin: 0.5em;
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .social-icons img {
+        width: 15px; 
+        height: 10px;
+        margin: 0.5em;
+    }
+
+    .social-icons:hover {
+        color: #d1f5d1; 
+    }
+
+    .logo {
+        width: 15px;
+        height: 10px;
+    }
+
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #2ecc71, #27ae60); 
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #2ecc71; 
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav button {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2ecc71; 
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    margin-right: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shopping-basket {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.content-box {
+    background-color: #d1f5d1; 
+    margin: 2em;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.left-column {
+    flex: 1;
+    margin-right: 2em;
+}
+
+.left-column img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+form {
+    background-color: #d1f5d1; 
+    padding: 2em;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 1em 0 0.5em;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #27ae60;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #218c56; 
+}
+
+footer {
+    background: linear-gradient(to right, #2ecc71, #27ae60); 
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    font-size: 2em;
+    margin: 0.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons img {
+    width: 40px; 
+    height: auto;
+    margin: 0.5em;
+}
+
+.social-icons:hover {
+    color: #d1f5d1; 
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    nav button {
+        display: block;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+
+    .user-actions {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .login {
+        margin: 0 0 0.5em 0;
+    }
+
+    .content-box,
+    form {
+        width: 100%;
+    }
+
+    .left-column {
+        margin-right: 0;
+        margin-bottom: 2em;
+    }
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #2ecc71, #27ae60); 
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #2ecc71;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav button {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2ecc71; 
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    margin-right: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shopping-basket {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.location-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d1f5d1; 
+    padding: 2em;
+    margin: 2em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.location-box img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+footer {
+    background: linear-gradient(to right, #2ecc71, #27ae60); 
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    font-size: 2em;
+    margin: 0.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons img {
+    width: 40px; 
+    height: auto;
+    margin: 0.5em;
+}
+
+.social-icons:hover {
+    color: #d1f5d1; 
+}
+
+.logo {
+    width: 80px; 
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    nav button {
+        display: block;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+
+    .user-actions {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .login {
+        margin: 0 0 0.5em 0;
+    }
+
+    .location-box {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #2ecc71, #27ae60); 
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #2ecc71; 
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav button {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2ecc71;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    margin-right: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shopping-basket {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.prescription-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.prescription-image {
+    flex: 1;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.prescription-text {
+    flex: 1;
+    padding: 0 2em;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #d1f5d1; 
+    padding: 2em;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 1em 0 0.5em;
+}
+
+form select,
+form input,
+form textarea {
+    width: calc(100% - 22px);
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #27ae60; 
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #218c56;
+}
+
+footer {
+    background: linear-gradient(to right, #2ecc71, #27ae60);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    font-size: 2em;
+    margin: 0.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons img {
+    width: 40px; 
+    height: auto;
+    margin: 0.5em;
+}
+
+.social-icons:hover {
+    color: #d1f5d1;
+}
+
+.logo {
+    width: 80px; 
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    nav button {
+        display: block;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+
+    .user-actions {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .login {
+        margin: 0 0 0.5em 0;
+    }
+
+    .prescription-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prescription-text {
+        padding: 1em 0;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #2ecc71, #27ae60); 
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #2ecc71; 
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav button {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2ecc71; 
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    margin-right: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shopping-basket {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.flu-vaccine-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.flu-vaccine-image {
+    flex: 1;
+    max-width: 150%;
+    border-radius: 5px;
+}
+
+.flu-vaccine-text {
+    flex: 1;
+    padding: 0 2em;
+}
+
+.book-vaccine-button {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.book-vaccine-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d1f5d1; 
+    padding: 2em;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.book-vaccine-popup p {
+    margin: 0;
+}
+
+.book-vaccine-popup button {
+    background-color: #27ae60; 
+    color: #fff;
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.book-vaccine-popup button:hover {
+    background-color: #218c56; 
+}
+
+footer {
+    background: linear-gradient(to right, #2ecc71, #27ae60); 
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    font-size: 2em;
+    margin: 0.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons img {
+    width: 40px; 
+    height: auto;
+    margin: 0.5em;
+}
+
+.social-icons:hover {
+    color: #d1f5d1; 
+}
+
+.logo {
+    width: 80px; 
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    nav button {
+        display: block;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+
+    .user-actions {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .login {
+        margin: 0 0 0.5em 0;
+    }
+
+    .flu-vaccine-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flu-vaccine-text {
+        padding: 1em 0;
+    }
+
+    .book-vaccine-popup {
+        width: 80%;
+    }
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+
+header {
+background: linear-gradient(to right, #2ecc71, #27ae60); 
+padding: 1em 0;
+text-align: center;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+margin: 0;
+font-size: 1.5em;
+}
+
+nav {
+background-color: #2ecc71;
+color: #fff;
+text-align: center;
+padding: 1em;
+}
+
+nav button {
+background-color: #27ae60;
+color: #fff;
+padding: 1em;
+margin: 0 1em;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #2ecc71;
+min-width: 160px;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: #fff;
+padding: 1em;
+display: block;
+text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.user-actions {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 1em;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+background-color: #27ae60; 
+color: #fff;
+padding: 1em;
+margin-right: 1em;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.shopping-basket {
+font-size: 1.5em;
+margin-left: 0.5em;
+}
+
+.blister-packing-section {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2em;
+}
+
+.blister-packing-image {
+flex: 1;
+max-width: 100%;
+border-radius: 5px;
+}
+
+.blister-packing-text {
+flex: 1;
+padding: 0 2em;
+}
+
+footer {
+background: linear-gradient(to right, #2ecc71, #27ae60); 
+color: #fff;
+padding: 1em;
+text-align: center;
+margin-top: 2em;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.social-icons {
+font-size: 2em;
+margin: 0.5em;
+color: #fff;
+text-decoration: none;
+transition: color 0.3s ease-in-out;
+}
+
+.social-icons img {
+width: 40px; 
+height: auto;
+margin: 0.5em;
+}
+
+.social-icons:hover {
+color: #d1f5d1; 
+}
+
+.logo {
+width: 80px; 
+height: auto;
+}
+
+@media (max-width: 600px) {
+nav button {
+    display: block;
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+.user-actions {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.login {
+    margin: 0 0 0.5em 0;
+}
+
+.blister-packing-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.blister-packing-text {
+    padding: 1em 0;
+}
+}
+

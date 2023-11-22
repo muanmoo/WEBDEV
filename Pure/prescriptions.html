@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prescription Service - Pure Pharmacy</title>
+    <style>
+    @import "style.css";
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pure Pharmacy</h1>
+    </header>
+
+    <nav>
+        <button>Services</button>
+        <a href="pure.html"><button>Home</button></a>
+        <a href="About Us.html"><button>About Us</button></a>
+        <a href="locations.html"><button>Locations</button></a>
+        <a href="prescriptions.html"><button>Prescriptions</button></a>
+        <a href="contactus.html"><button>Contact Us</button></a>
+        <div class="dropdown">
+            <button>Services</button>
+            <div class="dropdown-content">
+                <a href="blisterpack.html">Blister Packing</a>
+                <a href="#">Blood Sugar Testing</a>
+                <a href="#">Gene Testing</a>
+                <a href="fluvaccine.html">Flu Vaccinations</a>
+                <a href="#">Covid Vaccinations</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="user-actions">
+        <button class="login">Login</button>
+        <span class="shopping-basket">&#128722;</span>
+    </div>
+
+    <div class="prescription-section">
+        <div class="prescription-image">
+            <img src="prescriptions.webp" alt="Prescription Image">
+        </div>
+        <div class="prescription-text">
+            <p> 
+                At Pure Pharmacy, you can get prescriptions up to 60% cheaper than other pharmacies in Ireland.  
+                <br>We have trusted relationships with local community GPs, with the ability</br>
+                <br>to dispense your prescription at your local Pure Pharmacy branch via Healthmail.</br>
+                <br>Alternatively, if you have been issued with a paper copy, you can simply upload it</br>
+                <br>below using our online ordering service and take this copy with you on the day of collection.</br>
+            </p>
+        </div>
+    </div>
+
+    <form>
+        <h2>Submit your Prescription</h2>
+
+        <label for="location">Select Location:</label>
+        <select id="location" name="location">
+            <option value="location1">Stoneybatter</option>
+            <option value="location2">Foxrock</option>
+            <option value="location3">Bray</option>
+        </select>
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <label for="address1">Address Line 1:</label>
+        <input type="text" id="address1" name="address1" required>
+
+        <label for="address2">Address Line 2:</label>
+        <input type="text" id="address2" name="address2">
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="postcode">Postal Code:</label>
+        <input type="text" id="postcode" name="postcode" required>
+
+        <label for="province">Province:</label>
+        <input type="text" id="province" name="province" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="prescriptionImage">Prescription Image:</label>
+        <input type="file" id="prescriptionImage" name="prescriptionImage" accept="image/*">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <footer>
+        <a href="https://www.facebook.com/PurePharmacyIRL/" class="social-icons" target="_blank">
+            <img src="facebook-icon.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/pure_pharmacy_drogheda/" class="social-icons" target="_blank">
+            <img src="instagram-icon.png" alt="Twitter">
+        </a>
+        <p>&copy; 2023 Pure Pharmacy. Your Health, Our Priority.</p>
+    </footer>
+
+</body>
+
+</html>

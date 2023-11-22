@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flu Vaccines - Pure Pharmacy</title>
+    <style>
+        @import "style.css";
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pure Pharmacy</h1>
+    </header>
+
+    <nav>
+        <div class="dropdown">
+            <button>Services</button>
+            <a href="pure.html"><button>Home</button></a>
+            <a href="About Us.html"><button>About Us</button></a>
+            <a href="locations.html"><button>Locations</button></a>
+            <a href="prescriptions.html"><button>Prescriptions</button></a>
+            <a href="contactus.html"><button>Contact Us</button></a>
+            <div class="dropdown">
+                <button>Services</button>
+                <div class="dropdown-content">
+                    <a href="blisterpack.html">Blister Packing</a>
+                    <a href="#">Blood Sugar Testing</a>
+                    <a href="#">Gene Testing</a>
+                    <a href="fluvaccine.html">Flu Vaccinations</a>
+                    <a href="#">Covid Vaccinations</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="user-actions">
+        <button class="login">Login</button>
+        <span class="shopping-basket">&#128722;</span>
+    </div>
+
+    <div class="flu-vaccine-section">
+        <div class="flu-vaccine-image">
+            <img src="fluvaccine.jpg" alt="Flu Vaccine Image">
+        </div>
+        <div class="flu-vaccine-text">
+               <p>
+                <br>At Pure Pharmacy, we offer the flu vaccine to our local communities from October to April, annually.</br>
+                <br>The cost for a flu vaccine is €29.00, however many people are entitled to a free flu vaccine. Check your eligibility and the latest vaccine information at hse.ie.</br>
+               </p>
+            <button class="book-vaccine-button" onclick="showPopup()">Book Vaccine</button>
+        </div>
+    </div>
+
+    <div class="book-vaccine-popup" id="bookVaccinePopup">
+        <p>The flu vaccine costs 30€.</p>
+        <button onclick="hidePopup()">Close</button>
+    </div>
+
+    <footer>
+        <a href="https://www.facebook.com/PurePharmacyIRL/" class="social-icons" target="_blank">
+            <img src="facebook-icon.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/pure_pharmacy_drogheda/" class="social-icons" target="_blank">
+            <img src="instagram-icon.png" alt="Twitter">
+        </a>
+        <p>&copy; 2023 Pure Pharmacy. Your Health, Our Priority.</p>
+    </footer>
+
+    <script>
+        function showPopup() {
+            document.getElementById("bookVaccinePopup").style.display = "block";
+        }
+
+        function hidePopup() {
+            document.getElementById("bookVaccinePopup").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

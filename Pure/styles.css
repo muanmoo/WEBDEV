@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #2ecc71, #27ae60); /* Contrasting Green Shades */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #2ecc71; /* Darker Green */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav button {
+    background-color: #27ae60; /* Slightly Darker Green */
+    color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2ecc71; /* Darker Green */
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    background-color: #27ae60; /* Slightly Darker Green */
+    color: #fff;
+    padding: 1em;
+    margin-right: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2em;
+}
+
+footer {
+    background: linear-gradient(to right, #2ecc71, #27ae60); /* Contrasting Green Shades */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+@media (max-width: 600px) {
+    nav button {
+        display: block;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+
+    .user-actions {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .login {
+        margin: 0 0 0.5em 0;
+    }
+}
